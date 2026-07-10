@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 ```console
 LeeDoGwan@github:~$ ssh portfolio@backend
 Last login: Thu Jul 10 2026 from github.com
@@ -55,4 +52,3 @@ up, learning, building, and improving
 
 portfolio@backend:~$ █
 ```
-
