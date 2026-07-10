@@ -1,0 +1,61 @@
+Exit code: 0
+Wall time: 0.8 seconds
+Output:
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450" role="img" aria-labelledby="title desc">
+  <title id="title">Backend CLI Technology Stack</title>
+  <desc id="desc">Twelve command-line inspired technology cards for Java, Kotlin, Spring Boot, Netty, TCP, MariaDB, Redis, MyBatis, JPA, JUnit, Maven, and Gradle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .name { fill:#f0f6fc; font-size:15px; font-weight:700; }
+      .kind { fill:#8b949e; font-size:11px; letter-spacing:1px; }
+      .icon { fill:none; stroke:#58a6ff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+      .glyph { fill:#58a6ff; font-size:22px; font-weight:700; }
+      .card { fill:#0d1117; stroke:#30363d; }
+    </style>
+  </defs>
+  <rect x="5" y="5" width="890" height="440" rx="14" fill="url(#bg)" stroke="#30363d"/>
+  <path d="M5 49h890" stroke="#30363d"/>
+  <circle cx="29" cy="27" r="6" fill="#f85149"/><circle cx="49" cy="27" r="6" fill="#d29922"/><circle cx="69" cy="27" r="6" fill="#3fb950"/>
+  <text x="96" y="32" class="mono" fill="#8b949e" font-size="14">$ tree /opt/backend-stack --icons</text>
+
+  <!-- Row 1 -->
+  <g transform="translate(24 68)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 18)"><path d="M8 35h27v8H8zM35 37h5c8 0 8-11 0-11h-5M13 8c-8 8 9 8 0 17M24 5c-8 8 9 8 0 17"/></g>
+    <text x="76" y="45" class="mono name">Java</text><text x="76" y="66" class="mono kind">RUNTIME</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">pkg://openjdk/11</text></g>
+  <g transform="translate(240 68)"><rect class="card" width="202" height="104" rx="8"/>
+    <text x="20" y="48" class="mono glyph">K&gt;_</text><text x="76" y="45" class="mono name">Kotlin</text><text x="76" y="66" class="mono kind">LANGUAGE</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">bin://kotlinc</text></g>
+  <g transform="translate(456 68)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 17)"><path d="M8 39C8 17 26 8 43 8 41 28 30 43 8 39zM10 38c10-10 18-15 30-24"/></g>
+    <text x="76" y="45" class="mono name">Spring Boot</text><text x="76" y="66" class="mono kind">FRAMEWORK</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">svc://spring</text></g>
+  <g transform="translate(672 68)"><rect class="card" width="202" height="104" rx="8"/>
+    <text x="18" y="48" class="mono glyph">&lt;N&gt;</text><text x="76" y="45" class="mono name">Netty</text><text x="76" y="66" class="mono kind">NETWORK</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">io://event-loop</text></g>
+
+  <!-- Row 2 -->
+  <g transform="translate(24 186)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 20)"><circle cx="8" cy="20" r="5"/><circle cx="42" cy="20" r="5"/><path d="M14 20h22M30 14l6 6-6 6"/></g>
+    <text x="76" y="45" class="mono name">TCP</text><text x="76" y="66" class="mono kind">TRANSPORT</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">proto://reliable</text></g>
+  <g transform="translate(240 186)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 16)"><ellipse cx="25" cy="10" rx="18" ry="7"/><path d="M7 10v29c0 9 36 9 36 0V10M7 24c0 9 36 9 36 0"/></g>
+    <text x="76" y="45" class="mono name">MariaDB</text><text x="76" y="66" class="mono kind">DATABASE</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">db://relational</text></g>
+  <g transform="translate(456 186)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 18)"><path d="M6 13l20-8 20 8-20 8zM6 25l20 8 20-8M6 37l20 8 20-8"/></g>
+    <text x="76" y="45" class="mono name">Redis</text><text x="76" y="66" class="mono kind">DATA STORE</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">mem://key-value</text></g>
+  <g transform="translate(672 186)"><rect class="card" width="202" height="104" rx="8"/>
+    <text x="18" y="48" class="mono glyph">M::</text><text x="76" y="45" class="mono name">MyBatis</text><text x="76" y="66" class="mono kind">MAPPER</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">sql://mapped</text></g>
+
+  <!-- Row 3 -->
+  <g transform="translate(24 304)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 18)"><circle cx="10" cy="12" r="5"/><circle cx="42" cy="12" r="5"/><circle cx="26" cy="42" r="5"/><path d="M15 14l22 0M13 17l10 20M39 17L29 37"/></g>
+    <text x="76" y="45" class="mono name">JPA</text><text x="76" y="66" class="mono kind">PERSISTENCE</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">orm://entities</text></g>
+  <g transform="translate(240 304)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 18)"><circle cx="26" cy="26" r="20"/><path d="M15 26l8 8 15-18"/></g>
+    <text x="76" y="45" class="mono name">JUnit</text><text x="76" y="66" class="mono kind">VERIFICATION</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">test://passing</text></g>
+  <g transform="translate(456 304)"><rect class="card" width="202" height="104" rx="8"/>
+    <text x="18" y="48" class="mono glyph">M^</text><text x="76" y="45" class="mono name">Maven</text><text x="76" y="66" class="mono kind">BUILD</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">cmd://mvn</text></g>
+  <g transform="translate(672 304)"><rect class="card" width="202" height="104" rx="8"/>
+    <g class="icon" transform="translate(18 18)"><circle cx="26" cy="26" r="20"/><path d="M36 18c-8-7-20-2-20 8s13 15 20 7M26 26h13"/></g>
+    <text x="76" y="45" class="mono name">Gradle</text><text x="76" y="66" class="mono kind">BUILD</text><text x="18" y="89" class="mono" fill="#3fb950" font-size="11">cmd://gradle</text></g>
+</svg>
+
