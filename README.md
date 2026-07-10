@@ -12,6 +12,19 @@ portfolio@backend:~$ ./neofetch --profile
              \___)=(___/                 Status: building maintainable systems
 ```
 
+## `$ tree /opt/backend-stack`
+
+![CLI technology stack](./assets/cli-stack.png)
+
+```text
+/opt/backend-stack
+├── runtime/        Java · Kotlin · Spring Boot · Netty
+├── transport/      TCP
+├── persistence/    MariaDB · Redis · MyBatis · JPA
+├── verification/   JUnit
+└── build/          Maven · Gradle
+```
+
 ## `$ ./portfolio start`
 
 ```console
@@ -22,20 +35,7 @@ portfolio@backend:~$ ./portfolio start --foreground
 [ READY ] portfolio process is accepting connections
 ```
 
-[![boxing-bracket service card](./assets/project-card.svg)](https://github.com/LeeDoGwan/boxing-bracket-service)
-
-## `$ tree /opt/backend-stack`
-
-![CLI technology stack](./assets/cli-stack.svg)
-
-```text
-/opt/backend-stack
-├── runtime/        Java · Kotlin · Spring Boot · Netty
-├── transport/      TCP
-├── persistence/    MariaDB · Redis · MyBatis · JPA
-├── verification/   JUnit
-└── build/          Maven · Gradle
-```
+[![boxing-bracket service card](./assets/project-card.png)](https://github.com/LeeDoGwan/boxing-bracket-service)
 
 ## `cat /etc/profile.d/engineering-principles.sh`
 
