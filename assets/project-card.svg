@@ -1,0 +1,66 @@
+Exit code: 0
+Wall time: 0.7 seconds
+Output:
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+  <title id="title">Boxing Bracket Service</title>
+  <desc id="desc">A Linux terminal-inspired project card for the boxing tournament backend service.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .label { fill: #8b949e; font-size: 13px; letter-spacing: 1.2px; }
+      .value { fill: #c9d1d9; font-size: 15px; }
+      .chip { fill: #58a6ff; font-size: 13px; font-weight: 600; }
+      .unit { fill: #c9d1d9; font-size: 14px; }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="880" height="370" rx="14" fill="url(#panel)" stroke="#30363d" filter="url(#shadow)"/>
+  <path d="M10 54h880" stroke="#30363d"/>
+  <circle cx="34" cy="32" r="6" fill="#f85149"/>
+  <circle cx="54" cy="32" r="6" fill="#d29922"/>
+  <circle cx="74" cy="32" r="6" fill="#3fb950"/>
+  <text x="100" y="37" class="mono" fill="#8b949e" font-size="14">portfolio@backend: ~/services</text>
+  <rect x="742" y="21" width="124" height="23" rx="11" fill="#173b27" stroke="#2ea043"/>
+  <circle cx="759" cy="32.5" r="4" fill="#3fb950"/>
+  <text x="771" y="37" class="mono" fill="#56d364" font-size="12" font-weight="700">RUNNING</text>
+
+  <text x="36" y="92" class="mono label">PROCESS</text>
+  <text x="36" y="120" class="mono" fill="#f0f6fc" font-size="25" font-weight="700">boxing-bracket.service</text>
+  <text x="36" y="146" class="mono" fill="#8b949e" font-size="14">Boxing tournament operations backend</text>
+
+  <text x="36" y="184" class="mono label">RUNTIME</text>
+  <g transform="translate(36 198)">
+    <rect width="80" height="28" rx="5" fill="#15263b" stroke="#1f6feb"/><text x="14" y="19" class="mono chip">Java 11</text>
+    <rect x="90" width="128" height="28" rx="5" fill="#15263b" stroke="#1f6feb"/><text x="104" y="19" class="mono chip">Spring Boot 2.7</text>
+    <rect x="228" width="48" height="28" rx="5" fill="#15263b" stroke="#1f6feb"/><text x="242" y="19" class="mono chip">JPA</text>
+    <rect x="286" width="82" height="28" rx="5" fill="#15263b" stroke="#1f6feb"/><text x="300" y="19" class="mono chip">MariaDB</text>
+    <rect x="378" width="66" height="28" rx="5" fill="#15263b" stroke="#1f6feb"/><text x="392" y="19" class="mono chip">Maven</text>
+  </g>
+
+  <path d="M487 78v250" stroke="#30363d"/>
+  <text x="520" y="92" class="mono label">ACTIVE UNITS</text>
+  <g class="mono unit">
+    <circle cx="526" cy="120" r="4" fill="#3fb950"/><text x="540" y="125">auth.service</text>
+    <circle cx="526" cy="154" r="4" fill="#3fb950"/><text x="540" y="159">audience.service</text>
+    <circle cx="526" cy="188" r="4" fill="#3fb950"/><text x="540" y="193">judge.service</text>
+    <circle cx="526" cy="222" r="4" fill="#3fb950"/><text x="540" y="227">supervisor.service</text>
+    <circle cx="526" cy="256" r="4" fill="#3fb950"/><text x="540" y="261">ring-manager.service</text>
+    <circle cx="526" cy="290" r="4" fill="#3fb950"/><text x="540" y="295">admin.service</text>
+  </g>
+
+  <rect x="36" y="258" width="408" height="70" rx="7" fill="#0d1117" stroke="#30363d"/>
+  <text x="52" y="282" class="mono label">STATE</text>
+  <text x="52" y="307" class="mono value">Sprint 1 core backend flow in progress</text>
+
+  <path d="M10 344h880" stroke="#30363d"/>
+  <text x="36" y="369" class="mono" fill="#3fb950" font-size="14">$ open github.com/LeeDoGwan/boxing-bracket-service</text>
+  <rect x="836" y="357" width="8" height="16" fill="#3fb950" opacity=".85"/>
+</svg>
+
