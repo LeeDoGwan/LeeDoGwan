@@ -18,9 +18,9 @@ portfolio@backend:~$ ./neofetch --profile
 
 ```text
 /opt/backend-stack
-├── runtime/        Java · Kotlin · Spring Boot · Netty
-├── transport/      TCP
-├── persistence/    MariaDB · Redis · MyBatis · JPA
+├── language/       Java · Kotlin · Delphi
+├── tool/           TCP · Spring Boot · Netty
+├── persistence/    MariaDB · MS-SQL · Redis · MyBatis · JPA
 ├── verification/   JUnit
 └── build/          Maven · Gradle
 ```
