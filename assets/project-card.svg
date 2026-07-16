@@ -54,7 +54,7 @@
 
   <rect x="36" y="258" width="408" height="70" rx="7" fill="#0d1117" stroke="#30363d"/>
   <text x="52" y="282" class="mono label">STATE</text>
-  <text x="52" y="307" class="mono value">Sprint 1 core backend flow in progress</text>
+  <text x="52" y="307" class="mono value">Sprint 1 Finalizing stage flow in progress</text>
 
   <path d="M10 344h880" stroke="#30363d"/>
   <text x="36" y="369" class="mono" fill="#3fb950" font-size="14">$ open github.com/LeeDoGwan/boxing-bracket-service</text>
